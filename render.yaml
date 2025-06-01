@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: flask-player-app
+    runtime: python
+    buildCommand: ""
+    startCommand: "python player.py"
+    env: python
